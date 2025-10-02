@@ -1,8 +1,8 @@
 // im using runJS application/ webbrowser version to ouput and play with JS, here is just to save the code
 
 console.log("--------- Decleration methods ------------")
-var a = "accessible anywhere in the function"
-let b = "only accessible to the block they are declared in"
+var a = "accessible anywhere in the function, NVM that was outdated old info T-T"
+let b = "can accessible to the block they are declared in (unless"
 const c = "can't be changed"
 
 // console.log(2+3)
@@ -38,9 +38,9 @@ console.log ("\nThe map tool goes through the array and returns a value that is 
 // ------------------------------------ //
 console.log("\n --------- Exercize #1 ------------")
 
-let arr = [1,2,3,4,5,6,7,8,9,10]
+let arr1 = [1,2,3,4,5,6,7,8,9,10]
 
-let newArr = arr.map((value,index)=>{
+let newArr = arr1.map((value,index)=>{
   if (value % 5 == 0) {
     return value = "fizzBuzz"
   } else if (value % 2 != 0) {
@@ -91,3 +91,50 @@ Object [console] {
   }
 }
 */
+
+
+
+// ------------------------------------ //
+console.log("\n --------- key and value --> decalrations ------------")
+
+var space = " "
+
+function side(){
+  console.log("test")
+}
+let obj = {
+  part1 : () =>{
+    side()
+    console.log("This is inside")
+  },
+  
+    part2 : () =>{
+    console.log(space)
+  }
+}
+console.log(obj.part1() + obj.part2())
+
+
+
+
+// ------------------------------------ //
+console.log("\n --------- scopes ------------")
+
+
+let out = "outslide"
+function call(){
+  console.log(out)
+}
+
+call()
+
+// in this case there would be an error: 
+
+// console.log("\nvs\n")
+
+// let in
+// function call(){
+//   in = "inside"
+// }
+
+// call()
