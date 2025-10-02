@@ -1,7 +1,7 @@
 // im using runJS application/ webbrowser version to ouput and play with JS, here is just to save the code
 
 console.log("--------- Decleration methods ------------")
-var a = "accessible anywhere in the function"
+var a = "accessible anywhere in the function: not widely used anymore... just const and let, front end is just const..."
 let b = "can accessible to the block they are declared in (it will be global outside of the function)"
 const c = "can't be changed"
 
