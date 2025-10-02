@@ -118,7 +118,7 @@ console.log(obj.part1() + obj.part2())
 
 
 // ------------------------------------ //
-console.log("\n --------- scopes ------------")
+console.log("\n --------- SCOPING ------------")
 
 
 let out = "outslide"
