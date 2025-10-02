@@ -25,10 +25,30 @@ console.log("\nExercize: \n"+ test)
 // ------------------------------------ //
 console.log("\n --------- Callback function ------------")
 
-let arr = [1,2,3,4,5,6,6]
+let arr = [1,2,3,4,5,6]
 arr.map((value,index)=>{ // only 2 parameters 
   console.log(`${index}: ${value}`)
   
 })
 
 console.log ("\nThe map tool goes through the array and returns a value that is defined" + "\n\nThe name can always be changed but it is always value and index for parameters, though index is an optional value" + "\n\nThough 'value' would be required (cuz it's value), but with an _ before the name could render it optional, as long as there is 'index'")
+
+
+
+// ------------------------------------ //
+console.log("\n --------- Exercize #1 ------------")
+
+let arr = [1,2,3,4,5,6,7,8,9,10]
+
+let newArr = arr.map((value,index)=>{
+  if (value % 5 == 0) {
+    return value = "fizzBuzz"
+  } else if (value % 2 != 0) {
+    return value = "buzz"
+  } else{
+    return value = "fizz"
+  } 
+  
+})
+
+console.log(newArr)
