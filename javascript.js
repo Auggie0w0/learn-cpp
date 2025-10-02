@@ -1,3 +1,5 @@
+// im using runJS application/ webbrowser version to ouput and play with JS, here is just to save the code
+
 console.log("--------- Decleration methods ------------")
 var a = "accessible anywhere in the function"
 let b = "only accessible to the block they are declared in"
@@ -30,7 +32,3 @@ arr.map((value,index)=>{ // only 2 parameters
 })
 
 console.log ("\nThe map tool goes through the array and returns a value that is defined" + "\n\nThe name can always be changed but it is always value and index for parameters, though index is an optional value" + "\n\nThough 'value' would be required (cuz it's value), but with an _ before the name could render it optional, as long as there is 'index'")
-
-
-// ------------------------------------ //
-console.log("\n --------- Callback function ------------")
