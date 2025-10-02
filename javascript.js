@@ -1,8 +1,8 @@
 // im using runJS application/ webbrowser version to ouput and play with JS, here is just to save the code
 
 console.log("--------- Decleration methods ------------")
-var a = "accessible anywhere in the function, NVM that was outdated old info T-T"
-let b = "can accessible to the block they are declared in (unless"
+var a = "accessible anywhere in the function"
+let b = "can accessible to the block they are declared in (it will be global outside of the function)"
 const c = "can't be changed"
 
 // console.log(2+3)
@@ -138,3 +138,14 @@ call()
 // }
 
 // call()
+
+
+console.log("what if it is var?")
+
+let var1 = "varvar"
+
+function var1(){
+  var1 = "variable"
+}
+
+var1()
