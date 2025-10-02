@@ -52,3 +52,42 @@ let newArr = arr.map((value,index)=>{
 })
 
 console.log(newArr)
+console.warn("im yellow")
+console.error("im red")
+
+console // just running this will output: 
+/*
+Object [console] {
+  debug: ƒ (),
+  error: ƒ (),
+  info: ƒ (),
+  log: ƒ (),
+  warn: ƒ (),
+  dir: ƒ dir(),
+  dirxml: ƒ dirxml(),
+  table: ƒ (),
+  trace: ƒ trace(),
+  group: ƒ group(),
+  groupCollapsed: ƒ groupCollapsed(),
+  groupEnd: ƒ groupEnd(),
+  clear: ƒ (),
+  count: ƒ count(),
+  countReset: ƒ countReset(),
+  assert: ƒ (),
+  profile: ƒ profile(),
+  profileEnd: ƒ profileEnd(),
+  time: ƒ (),
+  timeLog: ƒ (),
+  timeEnd: ƒ (),
+  timeStamp: ƒ timeStamp(),
+  context: ƒ context(),
+  createTask: ƒ createTask(),
+  memory: Object [MemoryInfo] {
+    __proto__: {
+      totalJSHeapSize: 15200000,
+      usedJSHeapSize: 13400000,
+      jsHeapSizeLimit: 3760000000
+    }
+  }
+}
+*/
