@@ -9,3 +9,8 @@ It is a modern, next-generation build tool to significantly improve the performa
 
 ## React w/ vite
 Blazing Fast Server Startup --> optimizes build
+
+
+# Address
+**IP** - the location of the computer (identifies the address)
+**PORT** - where in the computer it is situated (a local port cannot be accessed by others)
